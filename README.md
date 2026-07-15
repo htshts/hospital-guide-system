@@ -152,7 +152,7 @@
 ## 项目结构
 
 ```
-ResumeP2/
+hospital-guide-system/
 ├── backend/                 # 后端代码
 │   ├── app/
 │   │   ├── api/            # API 路由

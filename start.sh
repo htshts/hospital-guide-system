@@ -5,7 +5,7 @@ echo "正在启动医院智能导诊系统..."
 
 # 检查是否在项目根目录
 if [ ! -d "backend" ]; then
-    echo "错误：请在项目根目录（ResumeP2）中运行此脚本"
+    echo "错误：请在项目根目录（hospital-guide-system）中运行此脚本"
     exit 1
 fi
 
