@@ -48,3 +48,9 @@ desktop.ini
 .idea/workspace.xml
 .idea/shelf/
 .idea/httpRequests/
+
+# ===== 本地教程文档（不推送到 GitHub）=====
+PROJECT_SUMMARY.md
+TUTORIAL.md
+TUTORIAL_PYCHARM.md
+TUTORIAL_GIT.md
