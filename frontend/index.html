@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>医院智能导诊系统</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- 顶部标题栏 -->
+        <header class="app-header">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">🏥</span>
+                    <h1>医院智能导诊系统</h1>
+                </div>
+                <div class="header-actions">
+                    <button id="btn-clear" class="btn-secondary" title="清空对话">清空</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- 主内容区 -->
+        <main class="main-content">
+            <!-- 左侧：对话区域 -->
+            <section class="chat-section">
+                <div class="chat-container">
+                    <!-- 消息列表 -->
+                    <div id="message-list" class="message-list">
+                        <!-- 欢迎消息 -->
+                        <div class="message assistant">
+                            <div class="message-avatar">🤖</div>
+                            <div class="message-content">
+                                <div class="message-text">
+                                    您好！我是医院智能导诊助手。<br>
+                                    请描述您的症状，我会为您推荐合适的科室和医生。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 输入区域 -->
+                    <div class="input-section">
+                        <div class="input-container">
+                            <textarea 
+                                id="user-input" 
+                                class="user-input" 
+                                placeholder="请描述您的症状，例如：发热、咳嗽、头痛..."
+                                rows="2"
+                            ></textarea>
+                            <button id="btn-send" class="btn-primary">
+                                <span class="btn-text">发送</span>
+                                <span class="btn-loading" style="display:none;">发送中...</span>
+                            </button>
+                        </div>
+                        <div class="input-hints">
+                            <span class="hint-label">快速输入：</span>
+                            <button class="hint-btn" data-text="发热、咳嗽">发热咳嗽</button>
+                            <button class="hint-btn" data-text="头痛、头晕">头痛头晕</button>
+                            <button class="hint-btn" data-text="腹痛、腹泻">腹痛腹泻</button>
+                            <button class="hint-btn" data-text="关节痛">关节痛</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 右侧：推荐结果区域 -->
+            <aside class="result-section">
+                <!-- 科室推荐 -->
+                <div class="result-card" id="department-result" style="display:none;">
+                    <h3 class="result-title">
+                        <span class="result-icon">📍</span>
+                        推荐科室
+                    </h3>
+                    <div class="result-content" id="department-list"></div>
+                </div>
+
+                <!-- 医生推荐 -->
+                <div class="result-card" id="doctor-result" style="display:none;">
+                    <h3 class="result-title">
+                        <span class="result-icon">👨‍⚕️</span>
+                        推荐医生
+                    </h3>
+                    <div class="result-content" id="doctor-list"></div>
+                </div>
+
+                <!-- 费用估算 -->
+                <div class="result-card" id="cost-result" style="display:none;">
+                    <h3 class="result-title">
+                        <span class="result-icon">💰</span>
+                        费用估算
+                    </h3>
+                    <div class="result-content" id="cost-detail"></div>
+                </div>
+
+                <!-- 操作提示 -->
+                <div class="help-card">
+                    <h3 class="result-title">
+                        <span class="result-icon">💡</span>
+                        使用提示
+                    </h3>
+                    <ul class="help-list">
+                        <li>描述症状时，尽量详细具体</li>
+                        <li>可以一次描述多个症状</li>
+                        <li>系统会推荐科室、医生和预估费用</li>
+                        <li>点击推荐卡片可查看详细信息</li>
+                    </ul>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <!-- 加载脚本 -->
+    <script src="js/utils.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/chat.js"></script>
+</body>
+</html>

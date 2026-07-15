@@ -1,0 +1,50 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# ===== 虚拟环境 =====
+venv/
+env/
+ENV/
+backend/venv/
+
+# ===== IDE 配置 =====
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ===== 环境变量（含敏感信息，绝不提交）=====
+.env
+.env.local
+.env.*.local
+
+# ===== Docker 数据卷 =====
+volumes/
+
+# ===== 日志 =====
+*.log
+logs/
+
+# ===== 操作系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 临时文件 =====
+*.tmp
+*.bak
+*~
+
+# ===== WorkBuddy 工作目录 =====
+.workbuddy/
+
+# ===== PyCharm 特定 =====
+.idea/workspace.xml
+.idea/shelf/
+.idea/httpRequests/

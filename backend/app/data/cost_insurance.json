@@ -1,0 +1,66 @@
+{
+  "departments": {
+    "神经内科": {
+      "common_procedures": [
+        {"name": "头颅CT", "price": 250, "insurance_rate": 0.8},
+        {"name": "头颅MRI", "price": 600, "insurance_rate": 0.7},
+        {"name": "脑电图", "price": 150, "insurance_rate": 0.85},
+        {"name": "挂号费", "price": 50, "insurance_rate": 0.8}
+      ],
+      "avg_total_cost": 500,
+      "insurance_threshold": 1000,
+      "insurance_ceiling": 50000
+    },
+    "心血管内科": {
+      "common_procedures": [
+        {"name": "心电图", "price": 30, "insurance_rate": 0.9},
+        {"name": "心脏彩超", "price": 300, "insurance_rate": 0.75},
+        {"name": "冠脉造影", "price": 4000, "insurance_rate": 0.6},
+        {"name": "挂号费", "price": 50, "insurance_rate": 0.8}
+      ],
+      "avg_total_cost": 800,
+      "insurance_threshold": 1000,
+      "insurance_ceiling": 50000
+    },
+    "呼吸内科": {
+      "common_procedures": [
+        {"name": "胸部CT", "price": 300, "insurance_rate": 0.75},
+        {"name": "肺功能检查", "price": 150, "insurance_rate": 0.85},
+        {"name": "血常规", "price": 30, "insurance_rate": 0.9},
+        {"name": "挂号费", "price": 40, "insurance_rate": 0.8}
+      ],
+      "avg_total_cost": 400,
+      "insurance_threshold": 1000,
+      "insurance_ceiling": 50000
+    },
+    "消化内科": {
+      "common_procedures": [
+        {"name": "胃镜", "price": 300, "insurance_rate": 0.7},
+        {"name": "肠镜", "price": 400, "insurance_rate": 0.7},
+        {"name": "幽门螺杆菌检测", "price": 100, "insurance_rate": 0.85},
+        {"name": "挂号费", "price": 40, "insurance_rate": 0.8}
+      ],
+      "avg_total_cost": 600,
+      "insurance_threshold": 1000,
+      "insurance_ceiling": 50000
+    },
+    "骨科": {
+      "common_procedures": [
+        {"name": "X光片", "price": 80, "insurance_rate": 0.85},
+        {"name": "CT三维重建", "price": 400, "insurance_rate": 0.7},
+        {"name": "挂号费", "price": 50, "insurance_rate": 0.8}
+      ],
+      "avg_total_cost": 700,
+      "insurance_threshold": 1000,
+      "insurance_ceiling": 50000
+    }
+  },
+  "insurance_policy": {
+    "name": "城镇职工基本医疗保险",
+    "threshold": 1000,
+    "ceiling": 50000,
+    "outpatient_rate": 0.7,
+    "inpatient_rate": 0.85,
+    "description": "起付线1000元，封顶线50000元，门诊报销70%，住院报销85%"
+  }
+}

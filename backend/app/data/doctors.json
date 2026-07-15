@@ -1,0 +1,150 @@
+[
+  {
+    "id": "doc_001",
+    "name": "张明华",
+    "department": "神经内科",
+    "title": "主任医师",
+    "specialty": "偏头痛、癫痫、帕金森病",
+    "schedule": {
+      "周一": "上午",
+      "周三": "全天",
+      "周五": "上午"
+    },
+    "rating": 4.9,
+    "experience_years": 25,
+    "introduction": "擅长神经系统疾病的诊治，尤其在偏头痛和癫痫的诊疗方面有丰富经验。"
+  },
+  {
+    "id": "doc_002",
+    "name": "李芳",
+    "department": "神经内科",
+    "title": "副主任医师",
+    "specialty": "脑梗死、脑出血、眩晕",
+    "schedule": {
+      "周二": "全天",
+      "周四": "上午",
+      "周六": "上午"
+    },
+    "rating": 4.7,
+    "experience_years": 15,
+    "introduction": "专注于脑血管疾病的诊治，对眩晕症的鉴别诊断有独到见解。"
+  },
+  {
+    "id": "doc_003",
+    "name": "王强",
+    "department": "心血管内科",
+    "title": "主任医师",
+    "specialty": "高血压、冠心病、心力衰竭",
+    "schedule": {
+      "周一": "全天",
+      "周三": "上午",
+      "周四": "全天"
+    },
+    "rating": 4.8,
+    "experience_years": 22,
+    "introduction": "心血管内科专家，擅长复杂冠心病的介入治疗。"
+  },
+  {
+    "id": "doc_004",
+    "name": "赵敏",
+    "department": "心血管内科",
+    "title": "副主任医师",
+    "specialty": "心律失常、心悸",
+    "schedule": {
+      "周二": "上午",
+      "周五": "全天"
+    },
+    "rating": 4.6,
+    "experience_years": 12,
+    "introduction": "擅长心律失常的药物治疗和导管消融术。"
+  },
+  {
+    "id": "doc_005",
+    "name": "刘伟",
+    "department": "呼吸内科",
+    "title": "主任医师",
+    "specialty": "肺炎、哮喘、慢性阻塞性肺病",
+    "schedule": {
+      "周一": "上午",
+      "周三": "全天",
+      "周五": "上午"
+    },
+    "rating": 4.7,
+    "experience_years": 20,
+    "introduction": "呼吸系统感染性疾病专家，对哮喘的长期管理有丰富经验。"
+  },
+  {
+    "id": "doc_006",
+    "name": "陈静",
+    "department": "消化内科",
+    "title": "主任医师",
+    "specialty": "胃炎、胃溃疡、肝炎",
+    "schedule": {
+      "周二": "全天",
+      "周四": "全天",
+      "周六": "上午"
+    },
+    "rating": 4.8,
+    "experience_years": 18,
+    "introduction": "消化内镜专家，擅长早期胃癌和食管癌的内镜下诊治。"
+  },
+  {
+    "id": "doc_007",
+    "name": "孙立",
+    "department": "骨科",
+    "title": "主任医师",
+    "specialty": "骨折、骨关节炎、腰椎间盘突出",
+    "schedule": {
+      "周一": "全天",
+      "周三": "上午",
+      "周五": "全天"
+    },
+    "rating": 4.9,
+    "experience_years": 28,
+    "introduction": "骨科专家，擅长关节置换术和脊柱微创手术。"
+  },
+  {
+    "id": "doc_008",
+    "name": "周婷",
+    "department": "内分泌科",
+    "title": "副主任医师",
+    "specialty": "糖尿病、甲状腺疾病",
+    "schedule": {
+      "周二": "全天",
+      "周四": "上午",
+      "周五": "上午"
+    },
+    "rating": 4.7,
+    "experience_years": 14,
+    "introduction": "内分泌代谢疾病专家，对糖尿病的个体化治疗有深入研究。"
+  },
+  {
+    "id": "doc_009",
+    "name": "吴刚",
+    "department": "皮肤科",
+    "title": "主任医师",
+    "specialty": "湿疹、皮炎、痤疮、带状疱疹",
+    "schedule": {
+      "周一": "全天",
+      "周三": "全天",
+      "周五": "上午"
+    },
+    "rating": 4.6,
+    "experience_years": 19,
+    "introduction": "皮肤性病专家，擅长过敏性皮肤病和病毒性皮肤病的诊治。"
+  },
+  {
+    "id": "doc_010",
+    "name": "郑秀英",
+    "department": "眼科",
+    "title": "主任医师",
+    "specialty": "结膜炎、白内障、青光眼",
+    "schedule": {
+      "周二": "全天",
+      "周四": "全天"
+    },
+    "rating": 4.8,
+    "experience_years": 23,
+    "introduction": "眼科专家，擅长白内障超声乳化手术和青光眼手术。"
+  }
+]
